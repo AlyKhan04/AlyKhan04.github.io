@@ -2,7 +2,7 @@
 import profile from "../assets/profile.jpeg"
 export default function Hero(){
     return(
-        <div className="flex flex-col items-center justify-center h-screen text-center px-4 bg-gray-100">
+        <div className="relative z-10 flex flex-col items-center justify-center h-screen text-center px-4 bg-black/60">
             <img
                 src={profile}
                 alt="Profile"
