@@ -24,7 +24,7 @@ const defaultProjects = [
     tags: ["Java", "Neural Network", "K-Fold CV", "Binary Classification"],
     github: "https://github.com/AlyKhan04/CreditRiskNeuralNetwork",
     demo: "",
-    image: "images/CreditRiskDatasetImage.png", // e.g. "images/credit-risk.png"
+    image: "images/CreditRiskDataset.png", // e.g. "images/credit-risk.png"
   },
   {
     title: "Multi-Task Fashion (Class & Color)",
@@ -35,7 +35,7 @@ const defaultProjects = [
     tags: ["PyTorch", "Multi-Task Learning", "Transfer Learning", "Computer Vision"],
     github: "https://github.com/AlyKhan04/MTL-Fashion-Dataset",
     demo: "",
-    image: "images/MTC Model Output.png", // e.g. "images/mtl-fashion.png"
+    image: "images/MTCModelOutput.png", // e.g. "images/mtl-fashion.png"
   },
 ];
 

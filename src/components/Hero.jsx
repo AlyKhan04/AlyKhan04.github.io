@@ -8,7 +8,7 @@ export default function Hero(){
                 alt="Profile"
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover mb-6 shadow-md border-4 border-white"
             />
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-800">
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white-800">
                 Aly Shahbaz Aftab Khan
             </h1>
             <p className="mt-4 text-xl md:text-2xl text-gray-600">
@@ -25,8 +25,8 @@ export default function Hero(){
                     View Projects
                 </a>
                 <a
-                    href={`${process.env.PUBLIC_URL}/docs/Aly_Khan_CV.pdf`}  // ✅ works on GH Pages
-                    download="Aly_Khan_CV.pdf"
+                    href={`${process.env.PUBLIC_URL}/docs/AlyKhanCV.pdf`}  // ✅ works on GH Pages
+                    download="AlyKhanCV.pdf"
                     type="application/pdf"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white"
                 >
