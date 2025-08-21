@@ -1,18 +1,21 @@
-import Hero from "./components/Hero";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
 import Starfield from "./components/Starfield";
-import './App.css';
+import Home from "./pages/home";              // ⬅️ new page (see below)
+import Projects from "./components/Projects"; // already created
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="relative bg-black min-h-screen overflow-hidden">
       <Starfield />
-      <Navbar />
-      <Hero />
-      <About />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
-
-export default App;

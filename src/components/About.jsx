@@ -1,6 +1,7 @@
 // About who I am
 import React from 'react'; 
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import SongOfTheMonth from './SongOfTheMonth';
 
 const About = () => {
   return (
@@ -98,6 +99,9 @@ const About = () => {
                 GitHub
             </a>
            </div>
+        </div>
+        <div className="p-6 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md shadow-lg h-full">
+            <SongOfTheMonth />
         </div>
       </div>
     </section>
