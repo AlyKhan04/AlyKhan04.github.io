@@ -25,11 +25,12 @@ export default function Hero(){
                     View Projects
                 </a>
                 <a
-                    href="/AlyKhanCV.pdf"
-                    download
-                    className="border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-blue-50 transition"
+                    href={`${process.env.PUBLIC_URL}/docs/Aly_Khan_CV.pdf`}  // ✅ works on GH Pages
+                    download="Aly_Khan_CV.pdf"
+                    type="application/pdf"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white"
                 >
-                    Download Resume
+                    Download CV
                 </a>
             </div>
         </div>
