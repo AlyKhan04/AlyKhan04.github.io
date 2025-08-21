@@ -26,9 +26,6 @@ export default function Navbar() {
           <Link to="/projects" className="hover:text-orange-400 transition">Projects</Link>
         </div>
 
-        {/* Center Logo */}
-        <Link to="/" className="text-lg md:text-xl font-bold tracking-wide">aly.dev</Link>
-
         {/* Right placeholder for symmetry */}
         <div className="w-[90px] md:w-[120px]" />
       </div>
