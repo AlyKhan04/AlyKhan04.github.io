@@ -6,7 +6,7 @@ import SongOfTheMonth from './SongOfTheMonth';
 const About = () => {
   return (
     <section id="about" className="text-white py-16 px-4 sm:px-8 lg:px-16 bg-black min-h-screen">
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+     <div className="flex flex-col gap-6 md:grid md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
 
         {/* Welcome Box */}
         <div className="col-span-2 p-6 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md shadow-lg">
