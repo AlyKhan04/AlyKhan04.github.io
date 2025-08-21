@@ -25,10 +25,11 @@ export default function Hero(){
                     View Projects
                 </a>
                 <a
-                    href="#contact"
+                    href="/AlyKhanCV.pdf"
+                    download
                     className="border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-blue-50 transition"
                 >
-                    Contact Me
+                    Download Resume
                 </a>
             </div>
         </div>

@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex gap-6 text-sm md:text-base">
           <a href="#home" className="hover:text-orange-400 transition">Home</a>
           <a href="#about" className="hover:text-orange-400 transition">About</a>
-          <a href="#contact" className="hover:text-orange-400 transition">Contact</a>
+          <a href="#projects" className="hover:text-orange-400 transition">Projects</a>
         </div>
 
         {/* Center Logo */}

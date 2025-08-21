@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 import Starfield from "./components/Starfield";
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
       <Starfield />
       <Navbar />
       <Hero />
+      <About />
     </div>
   );
 }
