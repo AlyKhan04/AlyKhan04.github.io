@@ -37,7 +37,6 @@ export default function Navbar() {
       <div className="flex items-center justify-between text-white font-medium">
         {/* Left Links */}
         <div className="flex gap-6 text-sm md:text-base">
-          <Link to="/" className="hover:text-orange-400 transition">Home</Link>
           <Link to="/" onClick={goHome} className="hover:text-orange-400 transition">Home</Link>
           <a href="#about" onClick={goToAbout} className="hover:text-orange-400 transition">About</a>
           <Link to="/projects" className="hover:text-orange-400 transition">Projects</Link>
