@@ -16,7 +16,7 @@ export default function App() {
         <Suspense fallback={<div className="text-white p-6">Loading…</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<(await import('./components/Projects')).default />} /> {/* optional lazy too */}
+            <Route path="/projects" element={(await import('./components/Projects')).default />} /> {/* optional lazy too */}
             <Route path="/playground" element={<Playground />} />
             <Route path="/playground/handwriting" element={<HandwritingDemo />} />
           </Routes>
