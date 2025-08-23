@@ -51,13 +51,13 @@ const About = () => {
             </p>
             <br />
             <li>Python</li>
-            <li>React / Tailwind (shhh... it's what powers this site)</li>
+            <li>React / Tailwind</li>
             <li>Java</li>
             <li>HTML/CSS/JS</li>
             <li>Pytorch/Scikit-Learn/Langchain</li>
           </ul>
           <p className="text-gray-400 mt-4 text-sm">
-            Beyond coding, I enjoy volunteering at charities, building lego during my free time, and love watching basketball.
+            Beyond coding, I enjoy volunteering at charities, reading books, playing polo, and love watching basketball.
           </p>
         </div>
 
