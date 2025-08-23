@@ -16,12 +16,29 @@ export default function Navbar() {
     }
   };
 
+  const goHome = (e) => {
+    e.preventDefault();
+    if (location.pathname !== "/") {
+    // navigate to Home and ask it to scroll to the hero
+      navigate("/", { state: { scrollTo: "hero" } });
+      } else {
+      // already on Home → smooth scroll to the top/hero
+      const hero = document.getElementById("hero");
+      if (hero) {
+        hero.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[min(92vw,980px)] px-6 py-3 rounded-full bg-white/10 backdrop-blur-md shadow-md">
       <div className="flex items-center justify-between text-white font-medium">
         {/* Left Links */}
         <div className="flex gap-6 text-sm md:text-base">
           <Link to="/" className="hover:text-orange-400 transition">Home</Link>
+          <Link to="/" onClick={goHome} className="hover:text-orange-400 transition">Home</Link>
           <a href="#about" onClick={goToAbout} className="hover:text-orange-400 transition">About</a>
           <Link to="/projects" className="hover:text-orange-400 transition">Projects</Link>
         </div>

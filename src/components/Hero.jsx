@@ -1,5 +1,7 @@
 //Hero banner component from react - to display name, goals, and tagline
 import profile from "../assets/profile.jpeg"
+import { Link } from "react-router-dom";
+
 export default function Hero(){
     return(
         <div className="relative z-10 flex flex-col items-center justify-center h-screen text-center px-4 bg-black/60">
@@ -18,12 +20,12 @@ export default function Hero(){
                 Passionate about building intelligent systems, solving real-world problems, and crafting useful, elegant software.
             </p>
             <div className="mt-6 flex gap-4">
-                <a
-                    href="projects"
-                    className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
-                >
-                    View Projects
-                </a>
+            <Link
+                to="/projects"
+                className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+            >
+                See Projects
+            </Link>
                 <a
                     href={`${process.env.PUBLIC_URL}/docs/AlyKhanCV.pdf`}  // ✅ works on GH Pages
                     download="AlyKhanCV.pdf"
