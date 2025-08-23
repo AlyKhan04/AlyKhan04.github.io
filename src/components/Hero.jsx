@@ -29,7 +29,7 @@ export default function Hero() {
         </Link>
 
         <a
-          href={`${process.env.PUBLIC_URL}/docs/AlyKhanCV.pdf`} {/* works on GitHub Pages */}
+          href={`${process.env.PUBLIC_URL}/docs/AlyKhanCV.pdf`}
           download="AlyKhanCV.pdf"
           type="application/pdf"
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white"

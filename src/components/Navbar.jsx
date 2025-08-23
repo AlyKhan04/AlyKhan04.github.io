@@ -40,6 +40,7 @@ export default function Navbar() {
           <Link to="/" onClick={goHome} className="hover:text-orange-400 transition">Home</Link>
           <a href="#about" onClick={goToAbout} className="hover:text-orange-400 transition">About</a>
           <Link to="/projects" className="hover:text-orange-400 transition">Projects</Link>
+          <Link to="/playground" className="hover:text-orange-400 transition">Playground</Link>
         </div>
 
         {/* Right placeholder for symmetry */}
