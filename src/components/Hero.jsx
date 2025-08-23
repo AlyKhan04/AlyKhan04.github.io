@@ -19,7 +19,7 @@ export default function Hero(){
             </p>
             <div className="mt-6 flex gap-4">
                 <a
-                    href="#projects"
+                    href="projects"
                     className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
                 >
                     View Projects
