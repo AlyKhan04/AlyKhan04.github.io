@@ -37,8 +37,7 @@
                 28,
                 1
               ]
-            },
-            "name": "input_layer"
+            }
           },
           {
             "class_name": "Conv2D",
@@ -745,13 +744,6 @@
           28,
           28,
           1
-        ],
-        "input_layers": [
-          [
-            "input_layer",
-            0,
-            0
-          ]
         ]
       }
     },
