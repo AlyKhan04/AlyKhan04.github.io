@@ -150,7 +150,7 @@ export default function HandwritingDemo() {
           <div>
             <p className="text-xs uppercase text-gray-400">playground</p>
             <h2 className="text-2xl font-semibold">Handwritten Character Recognition</h2>
-            <p className="text-gray-400 text-sm mt-1">Draw uppercase letters from A–Z; we convert to 28×28 for the model.</p>
+            <p className="text-gray-400 text-sm mt-1">Draw uppercase letters from A–Z and then press predict!.</p>
           </div>
           <Link to="/playground" className="text-sm text-orange-400 hover:underline">← All demos</Link>
         </div>
