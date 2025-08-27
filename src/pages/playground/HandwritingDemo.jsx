@@ -156,11 +156,11 @@ export default function HandwritingDemo() {
           <Link to="/playground" className="text-sm text-orange-400 hover:underline">← All demos</Link>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Canvas card */}
           <div className="p-5 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md shadow-lg">
             <div className="flex items-center justify-between mb-3">
-              <h3 className="font-semibold">Canvas (280×280)</h3>
+              <h3 className="font-semibold">Canvas</h3>
               <div className="flex items-center gap-3 text-sm">
                 <span className={`px-2 py-1 rounded ${ready ? "bg-green-500/30" : loadError ? "bg-red-500/30" : "bg-white/10"}`}>
                   Model: {loadError ? "Failed" : loading ? "Loading…" : "Ready"}
